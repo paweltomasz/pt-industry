@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #e97770 url("images/overlay.png");
+		background: #f4f4f4  url("images/overlay.png");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2380,7 +2380,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				background-color: #787878
 			}
 
 		table td {
@@ -2445,7 +2445,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 3px #787878;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2464,8 +2464,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #787dba;
+			color: #787dba !important;
 		}
 
 		input[type="submit"]:active,
@@ -2473,8 +2473,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #565872;
+			color: #565872 !important;
 		}
 
 		input[type="submit"].icon,
@@ -2534,8 +2534,8 @@ input, select, textarea {
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #3eb08f;
-				border-color: #3eb08f;
+				background-color: #4c4f7c;
+				border-color: #4c4f7c;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
